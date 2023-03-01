@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.col {
+    float: left;
+    padding: 5px;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body{align-items:center;}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.murphy{width:25%;
+  border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+}
+.poppy{width:25%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  }
+.jack{width: 25%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  }
+.duffy{width:25%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  }
+.lucas{width:25%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  }
+.jake{width:25%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  }
+.angus{width:25%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  }
+.violet{width:25%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  }
+#footer{width:100%;}
